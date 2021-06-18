@@ -31,6 +31,7 @@ public class StudentController {
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public ModelAndView showStudentList() {
+
         return new ModelAndView("list", "studentList",
                 studentService.findAll());
     }

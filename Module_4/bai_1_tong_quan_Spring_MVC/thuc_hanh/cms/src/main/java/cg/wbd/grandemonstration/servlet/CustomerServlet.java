@@ -3,12 +3,14 @@ package cg.wbd.grandemonstration.servlet;
 import cg.wbd.grandemonstration.model.Customer;
 import cg.wbd.grandemonstration.service.CustomerService;
 import cg.wbd.grandemonstration.service.CustomerServiceFactory;
+import org.springframework.stereotype.Controller;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+@Controller
 public class CustomerServlet extends HttpServlet {
     private CustomerService customerService = CustomerServiceFactory.getInstance();
 
