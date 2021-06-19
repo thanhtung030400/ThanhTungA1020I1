@@ -38,7 +38,7 @@ public class StudentController {
 
     @GetMapping(value = "/create")
     public String showCreatePage(Model model){
-        model.addAttribute("student", new Student());
+        model.addAttribute( npopokpokpo"student", new Student());
 
         List<String> languageList = new ArrayList<>();
         languageList.add("JAVA");
