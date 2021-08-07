@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e15c4d28-a75d-4b68-8e9a-6efcdcbacef3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bai_14_Spring_security/thuc_hanh/src/main/java/com/codegym/demo/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_14_Spring_security/thuc_hanh/src/main/java/com/codegym/demo/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_14_Spring_security/thuc_hanh/src/main/java/com/codegym/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_14_Spring_security/thuc_hanh/src/main/webapp/WEB-INF/view/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_14_Spring_security/thuc_hanh/src/main/webapp/WEB-INF/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_14_Spring_security/thuc_hanh/src/main/webapp/WEB-INF/view/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 01/src/MyInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 01/src/MyInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_6_JPA/thuc_hanh/controller_formatter_model_repository_service/src/main/java/com/codegym/cms/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_6_JPA/thuc_hanh/controller_formatter_model_repository_service/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/java/com/codegym/customphonevalidation/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/java/com/codegym/customphonevalidation/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/java/com/codegym/customphonevalidation/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/java/com/codegym/customphonevalidation/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/java/com/codegym/customphonevalidation/model/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/java/com/codegym/customphonevalidation/model/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/resources/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/resources/static/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_8_ Validation/thuc_hanh/src/main/resources/static/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test1/out/production/test1/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test1/src/LinkedIntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../test1/src/LinkedIntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test1/src/ReverseFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../test1/src/ReverseFile.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1wAaorJ3E5poEa2jzjsybJdf04z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bai_6_JPA/bai_tap/demo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e15c4d28-a75d-4b68-8e9a-6efcdcbacef3" name="Default Changelist" comment="" />
+      <created>1627904024283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627904024283</updated>
+      <workItem from="1627904025942" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="75" key="#Project_Structure" timestamp="1627904033762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="75" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1627904033762" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1627904041354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1627904041354" />
+  </component>
+</project>
