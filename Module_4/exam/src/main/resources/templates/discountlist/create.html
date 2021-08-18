@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout/header::header}">
+    <meta charset="UTF-8">
+    <title>Create product</title>
+</head>
+<body>
+<h1 >Create New Product</h1>
+
+<a href="/discountlist/list">List Product</a>
+<th:block th:if="${message}">
+    <p th:text="${message}" style="color: blue"></p>
+</th:block>
+<div>
+    <form th:action="@{/discountlist/create}" th:object="${discountlist}" method="post">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" th:field="*{title}"/>
+            <p th:if="${#fields.hasErrors('title')}" th:errors="*{title}" style="color: red"></p>
+        </div>
+        <div class="form-group">
+            <label for="timeStart">Start</label>
+            <input type="text" class="form-control" id="timeStart" th:field="*{timeStart}"/>
+            <p th:if="${#fields.hasErrors('timeStart')}" th:errors="*{timeStart}" style="color: red"></p>
+        </div>
+        <div class="form-group">
+            <label for="timeFinish">Finish</label>
+            <input type="text" class="form-control" id="timeFinish" th:field="*{timeFinish}"/>
+            <p th:if="${#fields.hasErrors('timeFinish')}" th:errors="*{timeFinish}" style="color: red"></p>
+        </div>
+        <div class="form-group">
+            <label for="discountNumber">DiscountNumber</label>
+            <input type="text" class="form-control" id="discountNumber" th:field="*{discountNumber}"/>
+            <p th:if="${#fields.hasErrors('discountNumber')}" th:errors="*{discountNumber}" style="color: red"></p>
+        </div>
+        <div class="form-group">
+            <label for="details">details</label>
+            <input type="text" class="form-control" id="details" th:field="*{details}"/>
+            <p th:if="${#fields.hasErrors('details')}" th:errors="*{details}" style="color: red"></p>
+        </div>
+
+        <div>
+            <input type="submit" value="Create"/>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
