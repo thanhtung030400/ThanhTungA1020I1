@@ -5,13 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-<input type="hidden" th:field="${product.id}">
+<input type="hidden" th:field="${discountlist.id}">
 <div>
-    Product: <p th:text="${product.name}"></p>
+    Product: <p th:text="${discountlist.title}"></p>
     Are you sure to delete?
 </div>
 <button id="clickDelete" type="button" class="btn btn-danger"
-        th:onclick="'javascript:actionDelete(\''+ ${product.id} + '\');'">Delete
+        th:onclick="'javascript:actionDelete(\''+ ${discountlist.id} + '\');'">Delete
 </button>
 
 </body>
