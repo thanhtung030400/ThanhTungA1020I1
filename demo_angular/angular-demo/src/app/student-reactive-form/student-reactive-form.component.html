@@ -1,0 +1,37 @@
+<h3> reactive form</h3>
+<form [formGroup]="createStudentForm" (ngSubmit)="createStudent()" >
+  <div class="form-group">
+    <label>Id</label>
+    <input class="form-control" formControlName="id">
+    <div class="alert alert-danger" *ngIf="createStudentForm.get('id')?.invalid &&
+      createStudentForm.get('id')?.touched && createStudentForm.get('id')?.errors?.required">
+      id la bat buoc nhap</div>
+    <div class="alert alert-danger" *ngIf="createStudentForm.get('id')?.invalid &&
+      createStudentForm.get('id')?.touched && createStudentForm.get('id')?.errors?.min">
+      id phai lon hon 5</div>
+
+
+  </div>
+  <div class="form-group">
+    <label>Name</label>
+    <input class="form-control" formControlName="name">
+  </div>
+  <div class="form-group">
+    <label>Age</label>
+    <input class="form-control" formControlName="age">
+  </div>
+  <div class="form-group">
+    <label>Address</label>
+    <input class="form-control" formControlName="address">
+  </div>
+  <div class="form-group">
+    <label>Avatar</label>
+    <input class="form-control" formControlName="avatar">
+  </div>
+  <div class="form-group">
+    <label>Mark</label>
+    <input class="form-control" formControlName="mark">
+  </div>
+  <input type="submit" value="Create" class="btn btn-primary">
+
+</form>

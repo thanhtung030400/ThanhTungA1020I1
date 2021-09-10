@@ -1,0 +1,24 @@
+<h3>student information</h3>
+<div class="card" style="width:400px">
+  <img class="card-img-top" src="{{studentInformation.avatar}}" alt="Card image">
+  <div class="card-body">
+    <p>Id:{{studentInformation.id}}
+    </p>
+    <p>Name:{{studentInformation.name}}
+    </p>
+    <p>Age:{{studentInformation.age}}
+    </p>
+    <p>Address:{{studentInformation.address}}
+    </p>
+    <p>Mark:{{studentInformation.mark}}
+    </p>
+
+  </div>
+</div>
+<label>change mark</label>
+<!--hai chieu-->
+<input type="number" [(ngModel)]="studentInformation.mark" >
+<!--mot chieu-->
+<!--<input type="number"  (change)="changeMark($any($event).target.value)">-->
+
+
